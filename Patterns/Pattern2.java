@@ -7,16 +7,13 @@ public class Pattern2 {
      
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
-        if(n ==1){
-            System.out.println("*");
-        }
-        else{
+     
        for (int i = 1 ; i <= n ; i++){
            for(int j = 1 ; j <= i ; j ++){
                System.out.print("*" + " ");
            }
            System.out.println();
        }
-        }   
+        
     }
 }
